@@ -4,7 +4,7 @@ import ShareIcon from "./ShareIcon.vue";
 
 <template>
   <div
-    class="flex flex-col justify-between p-8 sm:px-12 bg-white gap-4 rounded-r-lg text-[13px] font-bold tracking-wide sm:w-[30rem]"
+    class="flex flex-col justify-between p-8 sm:px-12 bg-white gap-4 rounded-b-lg sm:rounded-r-lg text-[13px] font-bold tracking-wide sm:w-[30rem]"
   >
     <h1 class="text-sm sm:text-xl text-very-dark-grayish-blue">
       Shift the overall look and feel by adding these wonderful touches to
