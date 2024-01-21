@@ -5,8 +5,8 @@ import CardContent from "./components/CardContent.vue";
 <template>
   <main class="min-h-screen flex place-items-center bg-light-grayish-blue">
     <div class="mx-auto p-8">
-      <div class="flex flex-col sm:flex-row shadow-custom rounded-lg">
-        <div class="h-40 sm:w-80 sm:h-auto">
+      <div class="flex flex-col sm:flex-row shadow-custom rounded-lg relative">
+        <div class="h-60 sm:w-80 sm:h-auto">
           <img
             src="./assets/drawers.jpg"
             alt="drawers image"
