@@ -6,14 +6,14 @@ const props = defineProps({
 });
 
 const colorClass = computed(() => ({
-  "fill-[#6E8098]": !props.isActive,
-  "fill-white": props.isActive,
+  "sm:fill-[#6E8098]": !props.isActive,
+  "sm:fill-white": props.isActive,
 }));
 </script>
 
 <template>
   <div
-    class="rounded-full w-9 h-9 bg-light-grayish-blue select-none flex place-items-center"
+    class="rounded-full w-8 h-8 bg-light-grayish-blue select-none flex place-items-center"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
