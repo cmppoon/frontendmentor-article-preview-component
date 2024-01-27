@@ -19,7 +19,7 @@ const shareIconClass = computed(() => ({
 
 <template>
   <div
-    class="flex flex-col justify-between px-8 py-2 sm:py-8 sm:px-12 bg-white gap-4 rounded-b-lg sm:rounded-r-lg text-[13px] font-bold tracking-wide sm:w-[30rem]"
+    class="flex flex-col justify-between px-8 pb-4 pt-8 sm:py-8 sm:px-12 bg-white gap-4 rounded-b-lg sm:rounded-r-lg text-[13px] font-bold tracking-wide sm:max-w-[30rem]"
   >
     <h1 class="text-sm sm:text-xl text-very-dark-grayish-blue">
       Shift the overall look and feel by adding these wonderful touches to
